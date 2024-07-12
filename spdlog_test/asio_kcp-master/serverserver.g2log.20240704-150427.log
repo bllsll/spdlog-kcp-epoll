@@ -1,0 +1,23 @@
+		g2log created log file at: Thu Jul 04 15:04:27 2024
+		LOG format: [YYYY/MM/DD hh:mm:ss uuu* LEVEL FILE:LINE] message		 (uuu*: microsecond counter since initialization of log worker)
+
+
+2024/07/04 15:04:27 1444	INFO [main.cpp L: 50]	"Start"
+2024/07/04 15:04:27 2484	
+
+***** FATAL TRIGGER RECEIVED ******* 
+Received fatal signal: SIGSEGV(11)
+	PID: 32428
+	stack dump [1]  /lib/x86_64-linux-gnu/libc.so.6+0x42520 [0x7fed95672520]
+	stack dump [2]  /lib/x86_64-linux-gnu/libc.so.6_IO_setbuffer+0x17 [0x7fed956b14d7]
+	stack dump [3]  ./server/server+0x5ad76 [0x7fed95b63d76]
+	stack dump [4]  ./server/server+0x12e39 [0x7fed95b1be39]
+	stack dump [5]  /lib/x86_64-linux-gnu/libc.so.6+0x29d90 [0x7fed95659d90]
+	stack dump [6]  /lib/x86_64-linux-gnu/libc.so.6__libc_start_main+0x80 [0x7fed95659e40]
+	stack dump [7]  ./server/server+0x12975 [0x7fed95b1b975]
+
+
+***** RETHROWING SIGNAL SIGSEGV(11)
+
+2024/07/04 15:04:27 2587	Log flushed successfully to disk 
+Exiting

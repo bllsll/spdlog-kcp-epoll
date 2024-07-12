@@ -1,0 +1,4 @@
+[2024-07-03 14:59:10.033] [basic_logger] [info] log file basic_logger created
+[2024-07-03 14:59:33.030 +08:00] [info][thread 736](): log file basic_logger created
+[2024-07-03 15:00:30.531 +08:00] [info][thread 742](): log file basic_logger created 1
+[2024-07-03 15:05:52.540 +08:00] [info][thread 748](): log file basic_logger created 1
